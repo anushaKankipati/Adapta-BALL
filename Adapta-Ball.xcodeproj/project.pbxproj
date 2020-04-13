@@ -15,6 +15,7 @@
 		C57C67E424440881000ADD93 /* Adapta_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67E324440881000ADD93 /* Adapta_BallTests.swift */; };
 		C57C67EF24440881000ADD93 /* Adapta_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */; };
 		C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892924444EAE00BCCBE9 /* Equip.swift */; };
+		C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892B244451A200BCCBE9 /* HasBall.swift */; };
 		C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E88CB424443D1F00001AA1 /* gifBackground.swift */; };
 		C5E88CB724443DE700001AA1 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5E88CB624443DE700001AA1 /* giphy.gif */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapta_BallUITests.swift; sourceTree = "<group>"; };
 		C57C67F024440882000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5CF892924444EAE00BCCBE9 /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
+		C5CF892B244451A200BCCBE9 /* HasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasBall.swift; sourceTree = "<group>"; };
 		C5E88CB424443D1F00001AA1 /* gifBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
 		C5E88CB624443DE700001AA1 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				C57C67DA24440881000ADD93 /* Info.plist */,
 				C5E88CB424443D1F00001AA1 /* gifBackground.swift */,
 				C5CF892924444EAE00BCCBE9 /* Equip.swift */,
+				C5CF892B244451A200BCCBE9 /* HasBall.swift */,
 			);
 			path = "Adapta-Ball";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			files = (
 				C57C67D124440881000ADD93 /* ViewController.swift in Sources */,
 				C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */,
+				C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */,
 				C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */,
 				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
 			);

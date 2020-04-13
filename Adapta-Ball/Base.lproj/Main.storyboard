@@ -76,6 +76,7 @@
                                 </state>
                                 <connections>
                                     <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
+                                    <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cba-R9-Pm6">
@@ -101,6 +102,33 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yoj-mm-04N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="904.79999999999995" y="133.5832083958021"/>
+        </scene>
+        <!--Has Ball-->
+        <scene sceneID="LeR-5y-ZxC">
+            <objects>
+                <viewController id="TtV-cT-lY0" customClass="HasBall" customModule="Adapta_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6QO-a7-mbU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Focus:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRr-aF-6EH">
+                                <rect key="frame" x="124" y="100" width="127" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.7398755266" blue="0.57045906739999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="tfz-19-bUy"/>
+                    </view>
+                    <connections>
+                        <outlet property="hasBallTitle" destination="gRr-aF-6EH" id="DC5-zZ-kA8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRA-wt-KCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1758" y="22"/>
         </scene>
     </scenes>
 </document>
