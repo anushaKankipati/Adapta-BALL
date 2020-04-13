@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67CE24440881000ADD93 /* AppDelegate.swift */; };
+		C57C67D124440881000ADD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67D024440881000ADD93 /* ViewController.swift */; };
+		C57C67D424440881000ADD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D224440881000ADD93 /* Main.storyboard */; };
+		C57C67D624440881000ADD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D524440881000ADD93 /* Assets.xcassets */; };
+		C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D724440881000ADD93 /* LaunchScreen.storyboard */; };
+		C57C67E424440881000ADD93 /* Adapta_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67E324440881000ADD93 /* Adapta_BallTests.swift */; };
+		C57C67EF24440881000ADD93 /* Adapta_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57C67E024440881000ADD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57C67C324440880000ADD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57C67CA24440880000ADD93;
+			remoteInfo = "Adapta-Ball";
+		};
+		C57C67EB24440881000ADD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57C67C324440880000ADD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57C67CA24440880000ADD93;
+			remoteInfo = "Adapta-Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C57C67CB24440880000ADD93 /* Adapta-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adapta-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57C67CE24440881000ADD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C57C67D024440881000ADD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C57C67D324440881000ADD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C57C67D524440881000ADD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C57C67D824440881000ADD93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C57C67DA24440881000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57C67DF24440881000ADD93 /* Adapta-BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adapta-BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57C67E324440881000ADD93 /* Adapta_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapta_BallTests.swift; sourceTree = "<group>"; };
+		C57C67E524440881000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C57C67EA24440881000ADD93 /* Adapta-BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adapta-BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapta_BallUITests.swift; sourceTree = "<group>"; };
+		C57C67F024440882000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57C67C824440880000ADD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67DC24440881000ADD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67E724440881000ADD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57C67C224440880000ADD93 = {
+			isa = PBXGroup;
+			children = (
+				C57C67CD24440880000ADD93 /* Adapta-Ball */,
+				C57C67E224440881000ADD93 /* Adapta-BallTests */,
+				C57C67ED24440881000ADD93 /* Adapta-BallUITests */,
+				C57C67CC24440880000ADD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57C67CC24440880000ADD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57C67CB24440880000ADD93 /* Adapta-Ball.app */,
+				C57C67DF24440881000ADD93 /* Adapta-BallTests.xctest */,
+				C57C67EA24440881000ADD93 /* Adapta-BallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57C67CD24440880000ADD93 /* Adapta-Ball */ = {
+			isa = PBXGroup;
+			children = (
+				C57C67CE24440881000ADD93 /* AppDelegate.swift */,
+				C57C67D024440881000ADD93 /* ViewController.swift */,
+				C57C67D224440881000ADD93 /* Main.storyboard */,
+				C57C67D524440881000ADD93 /* Assets.xcassets */,
+				C57C67D724440881000ADD93 /* LaunchScreen.storyboard */,
+				C57C67DA24440881000ADD93 /* Info.plist */,
+			);
+			path = "Adapta-Ball";
+			sourceTree = "<group>";
+		};
+		C57C67E224440881000ADD93 /* Adapta-BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57C67E324440881000ADD93 /* Adapta_BallTests.swift */,
+				C57C67E524440881000ADD93 /* Info.plist */,
+			);
+			path = "Adapta-BallTests";
+			sourceTree = "<group>";
+		};
+		C57C67ED24440881000ADD93 /* Adapta-BallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */,
+				C57C67F024440882000ADD93 /* Info.plist */,
+			);
+			path = "Adapta-BallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57C67CA24440880000ADD93 /* Adapta-Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57C67F324440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-Ball" */;
+			buildPhases = (
+				C57C67C724440880000ADD93 /* Sources */,
+				C57C67C824440880000ADD93 /* Frameworks */,
+				C57C67C924440880000ADD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adapta-Ball";
+			productName = "Adapta-Ball";
+			productReference = C57C67CB24440880000ADD93 /* Adapta-Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C57C67DE24440881000ADD93 /* Adapta-BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57C67F624440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-BallTests" */;
+			buildPhases = (
+				C57C67DB24440881000ADD93 /* Sources */,
+				C57C67DC24440881000ADD93 /* Frameworks */,
+				C57C67DD24440881000ADD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57C67E124440881000ADD93 /* PBXTargetDependency */,
+			);
+			name = "Adapta-BallTests";
+			productName = "Adapta-BallTests";
+			productReference = C57C67DF24440881000ADD93 /* Adapta-BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C57C67E924440881000ADD93 /* Adapta-BallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57C67F924440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-BallUITests" */;
+			buildPhases = (
+				C57C67E624440881000ADD93 /* Sources */,
+				C57C67E724440881000ADD93 /* Frameworks */,
+				C57C67E824440881000ADD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57C67EC24440881000ADD93 /* PBXTargetDependency */,
+			);
+			name = "Adapta-BallUITests";
+			productName = "Adapta-BallUITests";
+			productReference = C57C67EA24440881000ADD93 /* Adapta-BallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57C67C324440880000ADD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "sea urchins";
+				TargetAttributes = {
+					C57C67CA24440880000ADD93 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C57C67DE24440881000ADD93 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C57C67CA24440880000ADD93;
+					};
+					C57C67E924440881000ADD93 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C57C67CA24440880000ADD93;
+					};
+				};
+			};
+			buildConfigurationList = C57C67C624440880000ADD93 /* Build configuration list for PBXProject "Adapta-Ball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57C67C224440880000ADD93;
+			productRefGroup = C57C67CC24440880000ADD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57C67CA24440880000ADD93 /* Adapta-Ball */,
+				C57C67DE24440881000ADD93 /* Adapta-BallTests */,
+				C57C67E924440881000ADD93 /* Adapta-BallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57C67C924440880000ADD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */,
+				C57C67D624440881000ADD93 /* Assets.xcassets in Resources */,
+				C57C67D424440881000ADD93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67DD24440881000ADD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67E824440881000ADD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57C67C724440880000ADD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C67D124440881000ADD93 /* ViewController.swift in Sources */,
+				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67DB24440881000ADD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C67E424440881000ADD93 /* Adapta_BallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57C67E624440881000ADD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C67EF24440881000ADD93 /* Adapta_BallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57C67E124440881000ADD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57C67CA24440880000ADD93 /* Adapta-Ball */;
+			targetProxy = C57C67E024440881000ADD93 /* PBXContainerItemProxy */;
+		};
+		C57C67EC24440881000ADD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57C67CA24440880000ADD93 /* Adapta-Ball */;
+			targetProxy = C57C67EB24440881000ADD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C57C67D224440881000ADD93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57C67D324440881000ADD93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C57C67D724440881000ADD93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57C67D824440881000ADD93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C57C67F124440882000ADD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C57C67F224440882000ADD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57C67F424440882000ADD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C57C67F524440882000ADD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C57C67F724440882000ADD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-BallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adapta-Ball.app/Adapta-Ball";
+			};
+			name = Debug;
+		};
+		C57C67F824440882000ADD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-BallTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Adapta-Ball.app/Adapta-Ball";
+			};
+			name = Release;
+		};
+		C57C67FA24440882000ADD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adapta-Ball";
+			};
+			name = Debug;
+		};
+		C57C67FB24440882000ADD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Adapta-BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sea-urchins.Adapta-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Adapta-Ball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57C67C624440880000ADD93 /* Build configuration list for PBXProject "Adapta-Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C67F124440882000ADD93 /* Debug */,
+				C57C67F224440882000ADD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57C67F324440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C67F424440882000ADD93 /* Debug */,
+				C57C67F524440882000ADD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57C67F624440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C67F724440882000ADD93 /* Debug */,
+				C57C67F824440882000ADD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57C67F924440882000ADD93 /* Build configuration list for PBXNativeTarget "Adapta-BallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C67FA24440882000ADD93 /* Debug */,
+				C57C67FB24440882000ADD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57C67C324440880000ADD93 /* Project object */;
+}
