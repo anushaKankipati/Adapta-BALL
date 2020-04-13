@@ -1,21 +1,20 @@
 //
-//  HasBasketball.swift
+//  Equip.swift
 //  Adapta-Ball
 //
-//  Created by Anusha Kankipati on 4/12/20.
+//  Created by Anusha Kankipati on 4/13/20.
 //  Copyright © 2020 sea urchins. All rights reserved.
 //
 
 import UIKit
 
-class HasBasketball: UIViewController {
+class Equip: UIViewController {
 
-   
-    @IBAction func agilityButton1(_ sender: Any) {
+    @IBAction func NoBall(_ sender: Any) {
     }
-    @IBAction func BallHandlingButton(_ sender: Any) {
+    @IBAction func YesBall(_ sender: Any) {
     }
-    @IBOutlet weak var focus1Title: UILabel!
+    @IBOutlet weak var name: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

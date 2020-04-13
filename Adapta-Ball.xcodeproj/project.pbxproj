@@ -14,8 +14,9 @@
 		C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D724440881000ADD93 /* LaunchScreen.storyboard */; };
 		C57C67E424440881000ADD93 /* Adapta_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67E324440881000ADD93 /* Adapta_BallTests.swift */; };
 		C57C67EF24440881000ADD93 /* Adapta_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */; };
-		C57C67FD24440B7C000ADD93 /* EquipmentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67FC24440B7C000ADD93 /* EquipmentStatus.swift */; };
-		C57C67FF24440D92000ADD93 /* HasBasketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67FE24440D92000ADD93 /* HasBasketball.swift */; };
+		C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892924444EAE00BCCBE9 /* Equip.swift */; };
+		C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E88CB424443D1F00001AA1 /* gifBackground.swift */; };
+		C5E88CB724443DE700001AA1 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5E88CB624443DE700001AA1 /* giphy.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +50,9 @@
 		C57C67EA24440881000ADD93 /* Adapta-BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adapta-BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapta_BallUITests.swift; sourceTree = "<group>"; };
 		C57C67F024440882000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C57C67FC24440B7C000ADD93 /* EquipmentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentStatus.swift; sourceTree = "<group>"; };
-		C57C67FE24440D92000ADD93 /* HasBasketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasBasketball.swift; sourceTree = "<group>"; };
+		C5CF892924444EAE00BCCBE9 /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
+		C5E88CB424443D1F00001AA1 /* gifBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
+		C5E88CB624443DE700001AA1 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +106,12 @@
 				C57C67CE24440881000ADD93 /* AppDelegate.swift */,
 				C57C67D024440881000ADD93 /* ViewController.swift */,
 				C57C67D224440881000ADD93 /* Main.storyboard */,
-				C57C67FE24440D92000ADD93 /* HasBasketball.swift */,
-				C57C67FC24440B7C000ADD93 /* EquipmentStatus.swift */,
+				C5E88CB624443DE700001AA1 /* giphy.gif */,
 				C57C67D524440881000ADD93 /* Assets.xcassets */,
 				C57C67D724440881000ADD93 /* LaunchScreen.storyboard */,
 				C57C67DA24440881000ADD93 /* Info.plist */,
+				C5E88CB424443D1F00001AA1 /* gifBackground.swift */,
+				C5CF892924444EAE00BCCBE9 /* Equip.swift */,
 			);
 			path = "Adapta-Ball";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */,
 				C57C67D624440881000ADD93 /* Assets.xcassets in Resources */,
+				C5E88CB724443DE700001AA1 /* giphy.gif in Resources */,
 				C57C67D424440881000ADD93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,9 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C57C67D124440881000ADD93 /* ViewController.swift in Sources */,
+				C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */,
+				C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */,
 				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
-				C57C67FD24440B7C000ADD93 /* EquipmentStatus.swift in Sources */,
-				C57C67FF24440D92000ADD93 /* HasBasketball.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
