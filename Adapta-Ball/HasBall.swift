@@ -10,6 +10,10 @@ import UIKit
 
 class HasBall: UIViewController {
 
+    @IBAction func AgilitySkillButton(_ sender: Any) {
+    }
+    @IBAction func BallHandleButton(_ sender: Any) {
+    }
     @IBOutlet weak var hasBallTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
