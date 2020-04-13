@@ -10,13 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var gifView: UIImageView!
     @IBOutlet weak var AppTitle: UILabel!
     @IBAction func BeginButton(_ sender: Any) {
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        gifView.loadGif(name: "giphy")
     }
     
     
