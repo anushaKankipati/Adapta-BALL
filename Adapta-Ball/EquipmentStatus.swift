@@ -10,6 +10,10 @@ import UIKit
 
 class EquipmentStatus: UIViewController {
 
+    @IBOutlet weak var NoEquipmentButton: UIButton!
+    @IBAction func HasBallButton(_ sender: Any) {
+    }
+    @IBOutlet weak var statusTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

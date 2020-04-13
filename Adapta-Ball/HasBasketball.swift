@@ -10,6 +10,12 @@ import UIKit
 
 class HasBasketball: UIViewController {
 
+   
+    @IBAction func agilityButton1(_ sender: Any) {
+    }
+    @IBAction func BallHandlingButton(_ sender: Any) {
+    }
+    @IBOutlet weak var focus1Title: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 
