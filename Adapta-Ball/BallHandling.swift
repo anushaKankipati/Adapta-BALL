@@ -9,26 +9,60 @@
 import UIKit
 
 class BallHandling: UIViewController {
-
+    var seconds = 45
+    var timer = Timer()
+    var isTimerRunning = false
+    @IBOutlet weak var slider: UISlider!
+    
+    @IBOutlet weak var labelTime: UILabel!
+    
     @IBAction func PrevPageButton(_ sender: Any) {
     }
+    
     @IBOutlet weak var workout1: UITextView!
+    
     @IBOutlet weak var ballHandleTitle: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func sliderAction(_ sender: UISlider) {
+        seconds = Int(sender.value)
+        labelTime.text = String(seconds)
     }
-    */
 
+    @IBAction func start(_ sender: Any) {
+        if(isTimerRunning == false){
+            runTimer()
+        }
+    }
+    @objc func counter(){
+        seconds -= 1
+        labelTime.text = timeString(time: TimeInterval(seconds))
+        slider.value = Float(seconds)
+        if(seconds == 0){
+            timer.invalidate()
+        }
+    }
+    @IBAction func stop(_ sender: Any) {
+        timer.invalidate()
+        seconds = 45
+        slider.setValue(45, animated: true)
+        labelTime.text = "00:00:45"
+        isTimerRunning = false
+    }
+    func runTimer(){
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(BallHandling.counter), userInfo: nil, repeats: true)
+        isTimerRunning = true;
+    }
+    func timeString(time:TimeInterval) -> String {
+        let hours = Int(time) / 3600
+        let minutes = Int(time) / 60 % 60
+        let seconds = Int(time) % 60
+        return String(format: "%02i:%02i:%02i", hours, minutes, seconds)
+    }
+    
 }

@@ -108,7 +108,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.7009108172455415" green="0.7009108172455415" blue="0.7009108172455415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.69781935848586263" green="0.71007126375788088" blue="0.76716129651675125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4vJ-xZ-o9g"/>
                     </view>
                     <connections>
@@ -275,7 +275,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stationary Ball Handling Workout:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-id-ZQQ">
-                                <rect key="frame" x="11" y="90" width="352" height="38"/>
+                                <rect key="frame" x="11" y="76" width="352" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -291,28 +291,65 @@
                                     <segue destination="TtV-cT-lY0" kind="show" id="9lg-Uj-dpz"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mV6-Vi-iSl">
-                                <rect key="frame" x="16" y="154" width="343" height="225"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mV6-Vi-iSl">
+                                <rect key="frame" x="11" y="136" width="352" height="245.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">1. Pound dribble waist high (30 sec)
-2. Wide crossovers (30 sec)
-3. Short crossovers (30 sec)
-4. In and out dribble (30 sec) 
-5. Scissor dribbles (30 sec)
-6. Behind the back (30 sec)
-7. Figure 8 (30 sec)                        
-8. Spider dribble (30 sec)
+                                <string key="text">1. Pound dribble waist high       &lt;45 sec&gt;                                   
+2. Wide crossovers                      &lt;45 sec&gt;
+3. Short crossovers                     &lt;45 sec&gt;
+4. In and out dribble                    &lt;45 sec&gt;
+5. Scissor dribbles                       &lt;45 sec&gt;
+6. Behind the back                      &lt;45 sec&gt;
+7. Figure 8                                    &lt;45 sec&gt;                    
+8. Spider dribble                          &lt;45 sec&gt;
 </string>
-                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="19"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjd-l7-rXV">
+                                <rect key="frame" x="16" y="416" width="343" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fze-oI-zk4">
+                                <rect key="frame" x="73" y="570" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" red="0.073840962536083077" green="0.22110718898555171" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="f2w-bY-ZYf"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="q0x-QV-29o">
+                                <rect key="frame" x="9" y="494" width="356" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="tY8-Qp-mJ6" eventType="valueChanged" id="0Ok-EJ-bN9"/>
+                                </connections>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sP9-vp-MOq">
+                                <rect key="frame" x="266" y="570" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.99833439089999998" green="0.063326247729999993" blue="0.087096816270000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="start:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="vqL-cy-XJD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Okd-gK-SM7"/>
                     </view>
                     <connections>
                         <outlet property="ballHandleTitle" destination="xGU-id-ZQQ" id="AOM-XJ-ARu"/>
+                        <outlet property="labelTime" destination="hjd-l7-rXV" id="a33-hR-ZA3"/>
+                        <outlet property="slider" destination="q0x-QV-29o" id="3f2-lS-wNn"/>
                         <outlet property="workout1" destination="mV6-Vi-iSl" id="OH0-gJ-J8Z"/>
                     </connections>
                 </viewController>
