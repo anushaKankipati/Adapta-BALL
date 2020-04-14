@@ -1,5 +1,5 @@
 //
-//  Equip.swift
+//  HasNoBall.swift
 //  Adapta-Ball
 //
 //  Created by Anusha Kankipati on 4/13/20.
@@ -8,15 +8,19 @@
 
 import UIKit
 
-class Equip: UIViewController {
+class HasNoBall: UIViewController {
 
-    @IBAction func PrevPageButtom(_ sender: Any) {
+    @IBAction func PrevButton(_ sender: Any) {
     }
-    @IBAction func NoBall(_ sender: Any) {
+    @IBAction func coreButtn(_ sender: Any) {
     }
-    @IBAction func YesBall(_ sender: Any) {
+    @IBAction func Agility2Buttn(_ sender: Any) {
     }
-    @IBOutlet weak var name: UILabel!
+    @IBAction func endurButtn(_ sender: Any) {
+    }
+    @IBAction func ExplsoiveButtn(_ sender: Any) {
+    }
+    @IBOutlet weak var focusTitleNo2: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

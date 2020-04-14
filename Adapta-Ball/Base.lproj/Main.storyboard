@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,19 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blc-MZ-2ev">
-                                <rect key="frame" x="114" y="522" width="146" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="Click to Begin">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="BeginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="moF-AG-ETa"/>
-                                    <segue destination="WdE-vG-E5X" kind="show" id="99g-6Q-ewJ"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Adapta-BALL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLd-3s-um6">
                                 <rect key="frame" x="71" y="76" width="233" height="101"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,6 +30,19 @@
                                 <rect key="frame" x="0.0" y="215" width="375" height="275"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="blc-MZ-2ev">
+                                <rect key="frame" x="114" y="526" width="146" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Click to Begin">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="BeginButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="moF-AG-ETa"/>
+                                    <segue destination="WdE-vG-E5X" kind="show" id="99g-6Q-ewJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.20690567829282147" green="0.20690567829282147" blue="0.20690567829282147" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -87,7 +87,7 @@
                                 </state>
                                 <connections>
                                     <action selector="NoBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="znN-yR-0L5"/>
-                                    <segue destination="WLE-zn-u9G" kind="custom" id="Yft-3v-l8f"/>
+                                    <segue destination="q7X-pv-GsX" kind="show" id="N6d-kG-iEx"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Equipment Status:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGi-PN-k1t">
@@ -97,6 +97,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yZL-Gi-Gp6">
+                                <rect key="frame" x="16" y="20" width="56" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="&lt; Home"/>
+                                <connections>
+                                    <action selector="PrevPageButtom:" destination="WdE-vG-E5X" eventType="touchUpInside" id="BKl-h2-o4H"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="WXJ-FV-HkI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7009108172455415" green="0.7009108172455415" blue="0.7009108172455415" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4vJ-xZ-o9g"/>
@@ -109,77 +119,90 @@
             </objects>
             <point key="canvasLocation" x="904.79999999999995" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="7us-bI-ep2">
+        <!--Has No Ball-->
+        <scene sceneID="fMZ-bV-K5g">
             <objects>
-                <viewController id="WLE-zn-u9G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="JWg-rJ-H0g">
+                <viewController id="q7X-pv-GsX" customClass="HasNoBall" customModule="Adapta_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z51-EY-RbL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Focus:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOJ-ft-exi">
-                                <rect key="frame" x="30" y="60" width="314" height="89"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hen-kh-jHP">
+                                <rect key="frame" x="66" y="180" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3u-8X-IwB">
-                                <rect key="frame" x="66" y="157" width="243" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.70091081720000004" green="0.70091081720000004" blue="0.70091081720000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
                                 <state key="normal" title="Explosiveness">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="BallHandleButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="4Yg-zl-4su"/>
+                                    <action selector="ExplsoiveButtn:" destination="q7X-pv-GsX" eventType="touchUpInside" id="OW7-Mp-bZP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNw-9E-u0R">
-                                <rect key="frame" x="66" y="278" width="243" height="74"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="udb-rP-D8K">
+                                <rect key="frame" x="66" y="295" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
+                                <color key="backgroundColor" red="0.70091081720000004" green="0.70091081720000004" blue="0.70091081720000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="33"/>
                                 <state key="normal" title="Endurance">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="BallHandleButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="Eyd-R7-8pX"/>
+                                    <action selector="endurButtn:" destination="q7X-pv-GsX" eventType="touchUpInside" id="fds-n6-XrV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qN9-Ae-yiF">
-                                <rect key="frame" x="66" y="395" width="243" height="74"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04r-Rw-cfi">
+                                <rect key="frame" x="66" y="530" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
-                                <state key="normal" title="Agility">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="BallHandleButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="kVh-kj-0GD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiI-aR-wjz">
-                                <rect key="frame" x="66" y="513" width="243" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
+                                <color key="backgroundColor" red="0.70091081720000004" green="0.70091081720000004" blue="0.70091081720000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
                                 <state key="normal" title="Core Strength">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="BallHandleButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="l3u-yo-VXw"/>
+                                    <action selector="coreButtn:" destination="q7X-pv-GsX" eventType="touchUpInside" id="3x7-QX-Isp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A6d-T1-V9a">
+                                <rect key="frame" x="66" y="411" width="243" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.70091081720000004" green="0.70091081720000004" blue="0.70091081720000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="34"/>
+                                <state key="normal" title="Agility">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="Agility2Buttn:" destination="q7X-pv-GsX" eventType="touchUpInside" id="ddH-Ck-798"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Focus Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTd-cR-KQ4">
+                                <rect key="frame" x="47" y="68" width="280" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCq-ER-bPg">
+                                <rect key="frame" x="13" y="20" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="&lt; Equipment Status"/>
+                                <connections>
+                                    <action selector="PrevButton:" destination="q7X-pv-GsX" eventType="touchUpInside" id="cAj-51-zE2"/>
+                                    <segue destination="WdE-vG-E5X" kind="show" id="7hi-wX-3ge"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.75258174980000003" blue="0.60629312499999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="8Gu-Gt-Qlb"/>
+                        <color key="backgroundColor" red="1" green="0.70823656059999995" blue="0.54675070690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="36a-PV-zoi"/>
                     </view>
+                    <connections>
+                        <outlet property="focusTitleNo2" destination="WTd-cR-KQ4" id="YAu-8i-1aB"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xRc-Oa-8ii" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8kr-i8-xmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1791" y="564"/>
+            <point key="canvasLocation" x="1782" y="541"/>
         </scene>
         <!--Has Ball-->
         <scene sceneID="LeR-5y-ZxC">
@@ -190,7 +213,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZN-Zw-YQ1">
-                                <rect key="frame" x="66" y="259" width="243" height="74"/>
+                                <rect key="frame" x="66" y="259" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
@@ -199,10 +222,11 @@
                                 </state>
                                 <connections>
                                     <action selector="BallHandleButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="Hka-V6-YdG"/>
+                                    <segue destination="tY8-Qp-mJ6" kind="show" id="613-qQ-gi9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AFE-Y3-ZMi">
-                                <rect key="frame" x="66" y="367" width="243" height="74"/>
+                                <rect key="frame" x="66" y="367" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="34"/>
@@ -213,15 +237,25 @@
                                     <action selector="AgilitySkillButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="96g-xc-HGD"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Focus:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRr-aF-6EH">
-                                <rect key="frame" x="30" y="80" width="314" height="89"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Focus Type:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRr-aF-6EH">
+                                <rect key="frame" x="30" y="101" width="314" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bA4-Vf-oS3">
+                                <rect key="frame" x="13" y="20" width="141" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="&lt; Equipment Status"/>
+                                <connections>
+                                    <action selector="backButton:" destination="TtV-cT-lY0" eventType="touchUpInside" id="xZH-tW-lkh"/>
+                                    <segue destination="WdE-vG-E5X" kind="show" id="Xc0-dn-s9p"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.7398755266" blue="0.57045906739999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.70823656059999995" blue="0.54675070690000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tfz-19-bUy"/>
                     </view>
                     <connections>
@@ -230,7 +264,65 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FRA-wt-KCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1702" y="-181"/>
+            <point key="canvasLocation" x="1783" y="-172"/>
+        </scene>
+        <!--Ball Handling-->
+        <scene sceneID="LHH-6V-2v9">
+            <objects>
+                <viewController id="tY8-Qp-mJ6" customClass="BallHandling" customModule="Adapta_Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PAS-5R-uez">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stationary Ball Handling Workout:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-id-ZQQ">
+                                <rect key="frame" x="11" y="90" width="352" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkF-xW-ZCc">
+                                <rect key="frame" x="16" y="20" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="&lt; Focus Type"/>
+                                <connections>
+                                    <action selector="PrevPageButton:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="dWw-qs-odg"/>
+                                    <segue destination="TtV-cT-lY0" kind="show" id="9lg-Uj-dpz"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mV6-Vi-iSl">
+                                <rect key="frame" x="16" y="154" width="343" height="225"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">1. Pound dribble waist high (30 sec)
+2. Wide crossovers (30 sec)
+3. Short crossovers (30 sec)
+4. In and out dribble (30 sec) 
+5. Scissor dribbles (30 sec)
+6. Behind the back (30 sec)
+7. Figure 8 (30 sec)                        
+8. Spider dribble (30 sec)
+</string>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="19"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Okd-gK-SM7"/>
+                    </view>
+                    <connections>
+                        <outlet property="ballHandleTitle" destination="xGU-id-ZQQ" id="AOM-XJ-ARu"/>
+                        <outlet property="workout1" destination="mV6-Vi-iSl" id="OH0-gJ-J8Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tvb-c5-hCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2612" y="-490.70464767616198"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9lg-Uj-dpz"/>
+        <segue reference="Xc0-dn-s9p"/>
+    </inferredMetricsTieBreakers>
 </document>

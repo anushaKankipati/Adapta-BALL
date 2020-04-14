@@ -10,6 +10,8 @@ import UIKit
 
 class HasBall: UIViewController {
 
+    @IBAction func backButton(_ sender: Any) {
+    }
     @IBAction func AgilitySkillButton(_ sender: Any) {
     }
     @IBAction func BallHandleButton(_ sender: Any) {

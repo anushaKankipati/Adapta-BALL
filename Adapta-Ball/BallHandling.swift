@@ -1,5 +1,5 @@
 //
-//  Equip.swift
+//  BallHandling.swift
 //  Adapta-Ball
 //
 //  Created by Anusha Kankipati on 4/13/20.
@@ -8,15 +8,12 @@
 
 import UIKit
 
-class Equip: UIViewController {
+class BallHandling: UIViewController {
 
-    @IBAction func PrevPageButtom(_ sender: Any) {
+    @IBAction func PrevPageButton(_ sender: Any) {
     }
-    @IBAction func NoBall(_ sender: Any) {
-    }
-    @IBAction func YesBall(_ sender: Any) {
-    }
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var workout1: UITextView!
+    @IBOutlet weak var ballHandleTitle: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
 

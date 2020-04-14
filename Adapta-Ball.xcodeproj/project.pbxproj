@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532F353244552EF00EFD15C /* HasNoBall.swift */; };
 		C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67CE24440881000ADD93 /* AppDelegate.swift */; };
 		C57C67D124440881000ADD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67D024440881000ADD93 /* ViewController.swift */; };
 		C57C67D424440881000ADD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D224440881000ADD93 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D724440881000ADD93 /* LaunchScreen.storyboard */; };
 		C57C67E424440881000ADD93 /* Adapta_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67E324440881000ADD93 /* Adapta_BallTests.swift */; };
 		C57C67EF24440881000ADD93 /* Adapta_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */; };
+		C59771AE244595520088677C /* BallHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59771AD244595520088677C /* BallHandling.swift */; };
 		C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892924444EAE00BCCBE9 /* Equip.swift */; };
 		C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892B244451A200BCCBE9 /* HasBall.swift */; };
 		C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E88CB424443D1F00001AA1 /* gifBackground.swift */; };
@@ -38,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C532F353244552EF00EFD15C /* HasNoBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasNoBall.swift; sourceTree = "<group>"; };
 		C57C67CB24440880000ADD93 /* Adapta-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adapta-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67CE24440881000ADD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57C67D024440881000ADD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		C57C67EA24440881000ADD93 /* Adapta-BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Adapta-BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67EE24440881000ADD93 /* Adapta_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapta_BallUITests.swift; sourceTree = "<group>"; };
 		C57C67F024440882000ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59771AD244595520088677C /* BallHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallHandling.swift; sourceTree = "<group>"; };
 		C5CF892924444EAE00BCCBE9 /* Equip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equip.swift; sourceTree = "<group>"; };
 		C5CF892B244451A200BCCBE9 /* HasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasBall.swift; sourceTree = "<group>"; };
 		C5E88CB424443D1F00001AA1 /* gifBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 				C5E88CB424443D1F00001AA1 /* gifBackground.swift */,
 				C5CF892924444EAE00BCCBE9 /* Equip.swift */,
 				C5CF892B244451A200BCCBE9 /* HasBall.swift */,
+				C532F353244552EF00EFD15C /* HasNoBall.swift */,
+				C59771AD244595520088677C /* BallHandling.swift */,
 			);
 			path = "Adapta-Ball";
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 				C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */,
 				C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */,
 				C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */,
+				C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */,
+				C59771AE244595520088677C /* BallHandling.swift in Sources */,
 				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
