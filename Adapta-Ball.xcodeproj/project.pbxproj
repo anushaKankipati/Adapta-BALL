@@ -20,6 +20,8 @@
 		C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892B244451A200BCCBE9 /* HasBall.swift */; };
 		C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E88CB424443D1F00001AA1 /* gifBackground.swift */; };
 		C5E88CB724443DE700001AA1 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5E88CB624443DE700001AA1 /* giphy.gif */; };
+		C5FB8BFB2446650500B01506 /* Agility1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB8BFA2446650400B01506 /* Agility1.swift */; };
+		C5FB8BFD24466A0100B01506 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5FB8BFC24466A0000B01506 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		C5CF892B244451A200BCCBE9 /* HasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasBall.swift; sourceTree = "<group>"; };
 		C5E88CB424443D1F00001AA1 /* gifBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
 		C5E88CB624443DE700001AA1 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
+		C5FB8BFA2446650400B01506 /* Agility1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility1.swift; sourceTree = "<group>"; };
+		C5FB8BFC24466A0000B01506 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 				C57C67D224440881000ADD93 /* Main.storyboard */,
 				C5E88CB624443DE700001AA1 /* giphy.gif */,
 				C57C67D524440881000ADD93 /* Assets.xcassets */,
+				C5FB8BFC24466A0000B01506 /* sound.mp3 */,
 				C57C67D724440881000ADD93 /* LaunchScreen.storyboard */,
 				C57C67DA24440881000ADD93 /* Info.plist */,
 				C5E88CB424443D1F00001AA1 /* gifBackground.swift */,
@@ -121,6 +126,7 @@
 				C5CF892B244451A200BCCBE9 /* HasBall.swift */,
 				C532F353244552EF00EFD15C /* HasNoBall.swift */,
 				C59771AD244595520088677C /* BallHandling.swift */,
+				C5FB8BFA2446650400B01506 /* Agility1.swift */,
 			);
 			path = "Adapta-Ball";
 			sourceTree = "<group>";
@@ -251,6 +257,7 @@
 				C57C67D624440881000ADD93 /* Assets.xcassets in Resources */,
 				C5E88CB724443DE700001AA1 /* giphy.gif in Resources */,
 				C57C67D424440881000ADD93 /* Main.storyboard in Resources */,
+				C5FB8BFD24466A0100B01506 /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +287,7 @@
 				C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */,
 				C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */,
 				C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */,
+				C5FB8BFB2446650500B01506 /* Agility1.swift in Sources */,
 				C59771AE244595520088677C /* BallHandling.swift in Sources */,
 				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
 			);

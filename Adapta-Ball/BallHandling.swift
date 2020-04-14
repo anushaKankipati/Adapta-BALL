@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class BallHandling: UIViewController {
     var seconds = 45
     var timer = Timer()
     var isTimerRunning = false
+    var audioPlayer = AVAudioPlayer()
     @IBOutlet weak var slider: UISlider!
     
     @IBOutlet weak var labelTime: UILabel!
@@ -26,7 +28,13 @@ class BallHandling: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        do{
+            let audioPath = Bundle.main.path(forResource: "sound", ofType: ".mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
+        }
+        catch{
+            //error
+        }
     }
     
     @IBAction func sliderAction(_ sender: UISlider) {
@@ -45,6 +53,7 @@ class BallHandling: UIViewController {
         slider.value = Float(seconds)
         if(seconds == 0){
             timer.invalidate()
+            audioPlayer.play()
         }
     }
     @IBAction func stop(_ sender: Any) {
@@ -53,6 +62,7 @@ class BallHandling: UIViewController {
         slider.setValue(45, animated: true)
         labelTime.text = "00:00:45"
         isTimerRunning = false
+        audioPlayer.stop()
     }
     func runTimer(){
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(BallHandling.counter), userInfo: nil, repeats: true)
