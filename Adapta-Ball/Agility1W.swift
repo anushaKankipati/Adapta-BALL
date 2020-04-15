@@ -1,33 +1,30 @@
 //
-//  BallHandling.swift
+//  Agility1W.swift
 //  Adapta-Ball
 //
-//  Created by Anusha Kankipati on 4/13/20.
+//  Created by Anusha Kankipati on 4/14/20.
 //  Copyright © 2020 sea urchins. All rights reserved.
 //
 
 import UIKit
 import AVFoundation
-
-class BallHandling: UIViewController {
-    
+class Agility1W: UIViewController {
     var seconds = 45
     var timer = Timer()
     var isTimerRunning = false
     var audioPlayer = AVAudioPlayer()
-    @IBOutlet weak var slider: UISlider!
     
+    @IBAction func DescriptionButton(_ sender: Any) {
+    }
+    @IBAction func BackButton(_ sender: Any) {
+    }
+    @IBOutlet weak var slider: UISlider!
     @IBOutlet weak var labelTime: UILabel!
     
-    @IBAction func PrevPageButton(_ sender: Any) {
-    }
+    @IBOutlet weak var workoutListAgility: UITextView!
     
-    @IBAction func descriptionButton(_ sender: Any) {
-    }
-    @IBOutlet weak var repLabel: UILabel!
-    @IBOutlet weak var workout1: UITextView!
-    
-    @IBOutlet weak var ballHandleTitle: UILabel!
+    @IBOutlet weak var numberOfTimesLabel: UILabel!
+    @IBOutlet weak var agilityWorkTitle: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,17 +37,11 @@ class BallHandling: UIViewController {
             //error
         }
     }
+    func runTimer(){
+        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(BallHandling.counter), userInfo: nil, repeats: true)
+        isTimerRunning = true;
+    }
     
-    @IBAction func sliderAction(_ sender: UISlider) {
-        seconds = Int(sender.value)
-        labelTime.text = String(seconds)
-    }
-
-    @IBAction func start(_ sender: Any) {
-        if(isTimerRunning == false){
-            runTimer()
-        }
-    }
     @objc func counter(){
         seconds -= 1
         labelTime.text = timeString(time: TimeInterval(seconds))
@@ -60,6 +51,18 @@ class BallHandling: UIViewController {
             audioPlayer.play()
         }
     }
+
+    @IBAction func sliderAction(_ sender: UISlider) {
+        seconds = Int(sender.value)
+        labelTime.text = String(seconds)
+    }
+    
+    @IBAction func start(_ sender: Any) {
+        if(isTimerRunning == false){
+            runTimer()
+        }
+    }
+    
     @IBAction func stop(_ sender: Any) {
         timer.invalidate()
         seconds = 45
@@ -67,10 +70,6 @@ class BallHandling: UIViewController {
         labelTime.text = "00:00:45"
         isTimerRunning = false
         audioPlayer.stop()
-    }
-    func runTimer(){
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(BallHandling.counter), userInfo: nil, repeats: true)
-        isTimerRunning = true;
     }
     func timeString(time:TimeInterval) -> String {
         let hours = Int(time) / 3600

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5120270244673BB002BA20E /* BallHandlingWorkDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512026F244673BB002BA20E /* BallHandlingWorkDesc.swift */; };
+		C512027224467681002BA20E /* Agility1W.swift in Sources */ = {isa = PBXBuildFile; fileRef = C512027124467681002BA20E /* Agility1W.swift */; };
+		C5120274244685E5002BA20E /* Agility1ExerciseDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5120273244685E5002BA20E /* Agility1ExerciseDesc.swift */; };
+		C51C8B3B2446A025004306BF /* EnduranceExDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B3A2446A025004306BF /* EnduranceExDesc.swift */; };
+		C51C8B3D2446A0B8004306BF /* Agility2Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B3C2446A0B8004306BF /* Agility2Workout.swift */; };
+		C51C8B3F2446AD16004306BF /* Agility2ExDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B3E2446AD16004306BF /* Agility2ExDesc.swift */; };
+		C51C8B412446ADAA004306BF /* CoreStrengthWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */; };
+		C51C8B432446B495004306BF /* CoreStrengthExDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */; };
 		C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532F353244552EF00EFD15C /* HasNoBall.swift */; };
 		C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67CE24440881000ADD93 /* AppDelegate.swift */; };
 		C57C67D124440881000ADD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67D024440881000ADD93 /* ViewController.swift */; };
@@ -20,7 +28,9 @@
 		C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CF892B244451A200BCCBE9 /* HasBall.swift */; };
 		C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E88CB424443D1F00001AA1 /* gifBackground.swift */; };
 		C5E88CB724443DE700001AA1 /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5E88CB624443DE700001AA1 /* giphy.gif */; };
-		C5FB8BFB2446650500B01506 /* Agility1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5FB8BFA2446650400B01506 /* Agility1.swift */; };
+		C5F9E293244688EE005B1398 /* ExplosivenessWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F9E292244688EE005B1398 /* ExplosivenessWorkout.swift */; };
+		C5F9E295244695B4005B1398 /* ExplosivenessExDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F9E294244695B4005B1398 /* ExplosivenessExDesc.swift */; };
+		C5F9E29724469699005B1398 /* EnduranceWorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F9E29624469699005B1398 /* EnduranceWorkoutList.swift */; };
 		C5FB8BFD24466A0100B01506 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C5FB8BFC24466A0000B01506 /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C512026F244673BB002BA20E /* BallHandlingWorkDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallHandlingWorkDesc.swift; sourceTree = "<group>"; };
+		C512027124467681002BA20E /* Agility1W.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility1W.swift; sourceTree = "<group>"; };
+		C5120273244685E5002BA20E /* Agility1ExerciseDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility1ExerciseDesc.swift; sourceTree = "<group>"; };
+		C51C8B3A2446A025004306BF /* EnduranceExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduranceExDesc.swift; sourceTree = "<group>"; };
+		C51C8B3C2446A0B8004306BF /* Agility2Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility2Workout.swift; sourceTree = "<group>"; };
+		C51C8B3E2446AD16004306BF /* Agility2ExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility2ExDesc.swift; sourceTree = "<group>"; };
+		C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthWorkout.swift; sourceTree = "<group>"; };
+		C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthExDesc.swift; sourceTree = "<group>"; };
 		C532F353244552EF00EFD15C /* HasNoBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasNoBall.swift; sourceTree = "<group>"; };
 		C57C67CB24440880000ADD93 /* Adapta-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adapta-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67CE24440881000ADD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +79,9 @@
 		C5CF892B244451A200BCCBE9 /* HasBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasBall.swift; sourceTree = "<group>"; };
 		C5E88CB424443D1F00001AA1 /* gifBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifBackground.swift; sourceTree = "<group>"; };
 		C5E88CB624443DE700001AA1 /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = giphy.gif; path = ../../../giphy.gif; sourceTree = "<group>"; };
-		C5FB8BFA2446650400B01506 /* Agility1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agility1.swift; sourceTree = "<group>"; };
+		C5F9E292244688EE005B1398 /* ExplosivenessWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplosivenessWorkout.swift; sourceTree = "<group>"; };
+		C5F9E294244695B4005B1398 /* ExplosivenessExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplosivenessExDesc.swift; sourceTree = "<group>"; };
+		C5F9E29624469699005B1398 /* EnduranceWorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduranceWorkoutList.swift; sourceTree = "<group>"; };
 		C5FB8BFC24466A0000B01506 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +146,17 @@
 				C5CF892B244451A200BCCBE9 /* HasBall.swift */,
 				C532F353244552EF00EFD15C /* HasNoBall.swift */,
 				C59771AD244595520088677C /* BallHandling.swift */,
-				C5FB8BFA2446650400B01506 /* Agility1.swift */,
+				C512026F244673BB002BA20E /* BallHandlingWorkDesc.swift */,
+				C512027124467681002BA20E /* Agility1W.swift */,
+				C5120273244685E5002BA20E /* Agility1ExerciseDesc.swift */,
+				C5F9E292244688EE005B1398 /* ExplosivenessWorkout.swift */,
+				C5F9E294244695B4005B1398 /* ExplosivenessExDesc.swift */,
+				C5F9E29624469699005B1398 /* EnduranceWorkoutList.swift */,
+				C51C8B3A2446A025004306BF /* EnduranceExDesc.swift */,
+				C51C8B3C2446A0B8004306BF /* Agility2Workout.swift */,
+				C51C8B3E2446AD16004306BF /* Agility2ExDesc.swift */,
+				C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */,
+				C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */,
 			);
 			path = "Adapta-Ball";
 			sourceTree = "<group>";
@@ -282,14 +312,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51C8B3F2446AD16004306BF /* Agility2ExDesc.swift in Sources */,
+				C51C8B432446B495004306BF /* CoreStrengthExDesc.swift in Sources */,
+				C5F9E295244695B4005B1398 /* ExplosivenessExDesc.swift in Sources */,
+				C5120274244685E5002BA20E /* Agility1ExerciseDesc.swift in Sources */,
 				C57C67D124440881000ADD93 /* ViewController.swift in Sources */,
+				C51C8B3D2446A0B8004306BF /* Agility2Workout.swift in Sources */,
+				C512027224467681002BA20E /* Agility1W.swift in Sources */,
 				C5E88CB524443D1F00001AA1 /* gifBackground.swift in Sources */,
+				C51C8B3B2446A025004306BF /* EnduranceExDesc.swift in Sources */,
 				C5CF892C244451A200BCCBE9 /* HasBall.swift in Sources */,
 				C5CF892A24444EAE00BCCBE9 /* Equip.swift in Sources */,
+				C5F9E29724469699005B1398 /* EnduranceWorkoutList.swift in Sources */,
+				C51C8B412446ADAA004306BF /* CoreStrengthWorkout.swift in Sources */,
 				C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */,
-				C5FB8BFB2446650500B01506 /* Agility1.swift in Sources */,
+				C5120270244673BB002BA20E /* BallHandlingWorkDesc.swift in Sources */,
 				C59771AE244595520088677C /* BallHandling.swift in Sources */,
 				C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */,
+				C5F9E293244688EE005B1398 /* ExplosivenessWorkout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
