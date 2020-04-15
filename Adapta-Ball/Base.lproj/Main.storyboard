@@ -64,6 +64,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8i-Vqh">
+                                <rect key="frame" x="65" y="202" width="246" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
+                                <state key="normal" title="I have a basketball">
+                                    <color key="titleColor" red="1" green="0.5569924034" blue="0.2331285411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
+                                    <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cba-R9-Pm6">
                                 <rect key="frame" x="65" y="311" width="246" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -94,24 +107,19 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="WXJ-FV-HkI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8i-Vqh">
-                                <rect key="frame" x="65" y="202" width="246" height="73"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="... also check out our Spotify playlist!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7T-aF-iim">
+                                <rect key="frame" x="22" y="455" width="331" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
-                                <state key="normal" title="I have a basketball">
-                                    <color key="titleColor" red="1" green="0.5569924034" blue="0.2331285411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
-                                    <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
-                                </connections>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.69781935848586263" green="0.71007126375788088" blue="0.76716129651675125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4vJ-xZ-o9g"/>
                     </view>
                     <connections>
+                        <outlet property="SpotifyPlaylistLabel" destination="d7T-aF-iim" id="nZ6-rl-TXx"/>
                         <outlet property="name" destination="wGi-PN-k1t" id="LlH-3m-X88"/>
                     </connections>
                 </viewController>
@@ -1217,12 +1225,12 @@
         <segue reference="Yrz-8i-Ik1"/>
         <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="EpM-vf-0Gi"/>
+        <segue reference="I3a-L4-A1o"/>
         <segue reference="dYT-Kr-ugJ"/>
         <segue reference="wF9-nb-ERp"/>
         <segue reference="oLv-Vm-CJT"/>
         <segue reference="VJT-lN-J5P"/>
-        <segue reference="0bF-km-Bca"/>
+        <segue reference="N6d-kG-iEx"/>
         <segue reference="7hi-wX-3ge"/>
     </inferredMetricsTieBreakers>
 </document>

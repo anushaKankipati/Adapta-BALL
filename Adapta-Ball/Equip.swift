@@ -10,6 +10,7 @@ import UIKit
 
 class Equip: UIViewController {
 
+    @IBOutlet weak var SpotifyPlaylistLabel: UILabel!
     @IBAction func PrevPageButtom(_ sender: Any) {
     }
     @IBAction func NoBall(_ sender: Any) {
