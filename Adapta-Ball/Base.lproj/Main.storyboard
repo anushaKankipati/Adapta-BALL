@@ -602,7 +602,7 @@ Lie on your back with your hands at your sides, knees bent, and feet flat on the
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-Begin in the pushup position with your hands elevated on any stable surface higher than the floor. Keep your body in a straight line from your shoulders to your toes and keep your abs and butt engaged. Lower yourself to the floor by bending your elbows until your chest almost touches the surface. Drive through the palms of your hands to push yourself back up until your arms are locked out.
+Begin in the pushup position with your hands elevated on any stable surface higher than the floor. Lower yourself to the floor by bending your elbows until your chest almost touches the surface. Drive through the palms of your hands to push yourself back up until your arms are locked out.
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -867,7 +867,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Begin in plank position, with your shoulders over your wrists, your body in one straight line, and your feet together. Like the motion of a jumping jack, jump your legs wide and then back together. Jump as quickly as you want, but keep your pelvis steady and don't let your booty rise toward the ceiling.
+                                        <string key="content">Begin in plank position, with your shoulders over your wrists, your body in one straight line, and your feet together. Like the motion of a jumping jack, jump your legs wide and then back together. 
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -893,7 +893,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Sprint - The power from your upper body comes from your shoulders. Make sure to warm up. You don't necessarily have to take longer strides, try taking more steps. Run on the balls of your feet. Backpedal - As you run backwards, use short quick steps, keep a level head, chest over thighs, and bend your knees.
+                                        <string key="content">Sprint - The power from your upper body comes from your shoulders. You don't necessarily have to take longer strides, try taking more steps. Run on the balls of your feet. Backpedal - As you run backwards, use short quick steps, keep a level head, chest over thighs, and bend your knees.
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -919,7 +919,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Keep your upper body straight, with your shoulders back and relaxed and chin up. Always engage your core. Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle. This is a forward lunge. Then, step to the one side and lunge outward, then bring your legs back together. Finally, turn your body backwards 45 degrees while keeping your feet in place and lunge, then bring your legs back together. Repeat this with both legs.
+                                        <string key="content">Keep your upper body straight, with your shoulders back and relaxed and chin up. Always engage your core. Step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle. This is a forward lunge. Then, step to the one side and lunge outward, then bring your legs back together. Finally, turn your body backwards 45 degrees while keeping your feet in place and lunge, then bring your legs back together. 
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -971,7 +971,7 @@ Cg
                                         </attributes>
                                     </fragment>
                                     <fragment>
-                                        <string key="content">Stand upright with your legs and feet together. Let your arms hang at your sides. Bend your knees to lower yourself into a squatting position. Keep your weight evenly distributed throughout both of your feet. Avoid arching or curving your back and losing form. Propel yourself upward and to the left or right, depending on which direction you wish to jump. Land on the balls of your feet, trying to make as little noise and impact as possible, and then allow the heels of your feet to lower to the floor.</string>
+                                        <string key="content">Stand upright with your legs and feet together. Let your arms hang at your sides. Bend your knees to lower yourself into a squatting position.   Propel yourself upward and to the left or right, depending on which direction you wish to jump. Land on the balls of your feet, trying to make as little noise and impact as possible, and then allow the heels of your feet to lower to the floor.</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="14"/>
@@ -1027,7 +1027,7 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="LEVATED HIP THRUST">
+                                    <fragment content="LEVATED HIP THRUST:">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
@@ -1197,7 +1197,7 @@ Make sure your back is flat against the wall. Set your feet about shoulder-width
                                     </fragment>
                                     <fragment content="– DIPS: ">
                                         <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1207,7 +1207,7 @@ Make sure your back is flat against the wall. Set your feet about shoulder-width
 Cg
 </string>
                                         <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -1215,7 +1215,7 @@ Cg
                                     <fragment>
                                         <string key="content">Plant hands on an elevated surface. Keep your feet shoulder width apart in front of you. The position should be opposite to that of a push up. Dip yourself down and push yourself back up.</string>
                                         <attributes>
-                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
@@ -1465,33 +1465,20 @@ The power from your upper body comes from your shoulders. Make sure to warm up. 
                                             <font key="NSFont" metaFont="system" size="14"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="– S">
+                                    <fragment content="– ">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
                                             <font key="NSOriginalFont" size="16" name="ArialRoundedMTBold"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="IDE SHUFFLES">
+                                    <fragment content="12 FEET SIDE SHUFFLES">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content=" (12 ">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
-                                            <font key="NSOriginalFont" size="16" name="ArialRoundedMTBold"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="FEET">
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="):">
+                                    <fragment content=":">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
@@ -1500,7 +1487,7 @@ The power from your upper body comes from your shoulders. Make sure to warm up. 
                                     </fragment>
                                     <fragment>
                                         <string key="content"> 
-Stand with your feet hip distance apart. Hinge/bend forward at the hips, knees bent, looking forward, chest lifted, and neutral spine. Hold your hands in loose fists in front of your chest. Move right using small quick shuffle steps for a determined amount of time - repeat movement to the left side.
+Stand with your feet hip distance apart. Bend forward at the hips, knees bent, looking forward, chest lifted, and neutral spine. Hold your hands in loose fists in front of your chest. Move right using small quick shuffle steps for a determined amount of time - repeat movement to the left side.
 </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
@@ -1616,8 +1603,7 @@ Start in standing position, feet hip-width apart. Slightly bend your knees and e
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-To do a burpee, start from a standing position, then squat down and place your hands on the floor in front of you. Quickly kick both feet out behind you so you are in a pushup position, and then do one pushup. Next, bring your legs forward to go into a squatting position again, and jump up.
-</string>
+To do a burpee, start from a standing position, then squat down and place your hands on the floor in front of you. Quickly kick both feet out behind you so you are in a pushup position, and then do one pushup. Next, bring your legs forward to go into a squatting position again, and jump up.</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" metaFont="system" size="14"/>
@@ -1916,7 +1902,7 @@ Cg
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content="WRAP AROUNF LEGS (FIGURE  8):">
+                                    <fragment content="WRAP AROUND LEGS (FIGURE  8):">
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="16" name="ArialRoundedMTBold"/>
@@ -2086,8 +2072,8 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stationary Ball Handling Workout:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-id-ZQQ">
-                                <rect key="frame" x="11" y="85" width="352" height="38"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stationary Ball Handling Workout:" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-id-ZQQ">
+                                <rect key="frame" x="37" y="79" width="301" height="67"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -2104,7 +2090,7 @@ Cg
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mV6-Vi-iSl">
-                                <rect key="frame" x="11" y="152" width="352" height="245.5"/>
+                                <rect key="frame" x="11" y="183" width="352" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -2126,22 +2112,15 @@ Cg
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjd-l7-rXV">
-                                <rect key="frame" x="16" y="413" width="343" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="q0x-QV-29o">
-                                <rect key="frame" x="9" y="486" width="356" height="30"/>
+                                <rect key="frame" x="9" y="494" width="356" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="tY8-Qp-mJ6" eventType="valueChanged" id="0Ok-EJ-bN9"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(2x)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ute-5y-iFz">
-                                <rect key="frame" x="172" y="123" width="31" height="21"/>
+                                <rect key="frame" x="172" y="154" width="31" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2181,6 +2160,13 @@ Cg
                                     <action selector="start:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="vqL-cy-XJD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjd-l7-rXV">
+                                <rect key="frame" x="16" y="429" width="343" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Okd-gK-SM7"/>
@@ -2445,13 +2431,14 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="613-qQ-gi9"/>
+        <segue reference="SfQ-U2-PiE"/>
+        <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="I3a-L4-A1o"/>
-        <segue reference="dYT-Kr-ugJ"/>
-        <segue reference="wF9-nb-ERp"/>
-        <segue reference="oLv-Vm-CJT"/>
-        <segue reference="VJT-lN-J5P"/>
+        <segue reference="9lg-Uj-dpz"/>
+        <segue reference="n8d-Ok-dH6"/>
+        <segue reference="2XF-Nh-scB"/>
+        <segue reference="SQ3-co-Smv"/>
+        <segue reference="lxf-Os-RDP"/>
         <segue reference="N6d-kG-iEx"/>
         <segue reference="Xc0-dn-s9p"/>
     </inferredMetricsTieBreakers>
