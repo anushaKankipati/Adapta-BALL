@@ -64,24 +64,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8i-Vqh">
-                                <rect key="frame" x="65" y="202" width="246" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cba-R9-Pm6">
+                                <rect key="frame" x="73" y="315" width="229" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
-                                <state key="normal" title="I have a basketball">
-                                    <color key="titleColor" red="1" green="0.5569924034" blue="0.2331285411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
-                                    <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cba-R9-Pm6">
-                                <rect key="frame" x="65" y="311" width="246" height="73"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="23"/>
                                 <state key="normal" title="I have no equipment">
                                     <color key="titleColor" red="1" green="0.5569924034" blue="0.2331285411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -114,6 +101,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8i-Vqh">
+                                <rect key="frame" x="73" y="214" width="229" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
+                                <state key="normal" title="I have a basketball">
+                                    <color key="titleColor" red="1" green="0.5569924034" blue="0.2331285411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
+                                    <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.69781935848586263" green="0.71007126375788088" blue="0.76716129651675125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4vJ-xZ-o9g"/>
@@ -191,12 +191,12 @@
                                     <segue destination="WdE-vG-E5X" kind="show" id="7hi-wX-3ge"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04r-Rw-cfi">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="04r-Rw-cfi">
                                 <rect key="frame" x="66" y="512" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72478970109999996" green="0.74426584829999998" blue="0.80269428990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="30"/>
-                                <state key="normal" title="Core Strength">
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="34"/>
+                                <state key="normal" title="   Core Strength">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -214,7 +214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8kr-i8-xmH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782" y="642"/>
+            <point key="canvasLocation" x="1781.5999999999999" y="641.82908545727139"/>
         </scene>
         <!--Endurance Workout List-->
         <scene sceneID="hZ8-88-uH7">
@@ -621,15 +621,7 @@ Begin in the pushup position with your hands elevated on any stable surface high
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-Lie on your back, legs straight and together. Keep your legs straight and lift them all the way up to the ceiling until </string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="14" name=".SFNSText"/>
-                                            <font key="NSOriginalFont" size="14" name=".SFNSText"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="your butt comes off the floor. Slowly lower your legs back down till they're just above the floor. Ho">
+Lie on your back, legs straight and together. Keep your legs straight and lift them all the way up to the ceiling until your butt comes off the floor. Slowly lower your legs back down till they're just above the floor. Ho</string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name=".SFNSText"/>
@@ -723,15 +715,7 @@ Sit on the floor and bring your legs out straight. Lean back slightly so your to
                                     </fragment>
                                     <fragment>
                                         <string key="content">
-Lie flat on the floor with your lower back pressed to the ground (pull your </string>
-                                        <attributes>
-                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                            <font key="NSFont" size="14" name=".SFNSText"/>
-                                            <font key="NSOriginalFont" size="14" name=".SFNSText"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="navel in to also ">
+Lie flat on the floor with your lower back pressed to the ground (pull your navel in to also </string>
                                         <attributes>
                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                             <font key="NSFont" size="14" name=".SFNSText"/>
@@ -1670,12 +1654,12 @@ To do a burpee, start from a standing position, then squat down and place your h
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZN-Zw-YQ1">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EZN-Zw-YQ1">
                                 <rect key="frame" x="66" y="259" width="243" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.72478970109999996" green="0.74426584829999998" blue="0.80269428990000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
-                                <state key="normal" title="Ball Handling">
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="34"/>
+                                <state key="normal" title="    Ball Handling">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -1723,7 +1707,7 @@ To do a burpee, start from a standing position, then squat down and place your h
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FRA-wt-KCF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1782" y="-136"/>
+            <point key="canvasLocation" x="1781.5999999999999" y="-136.28185907046478"/>
         </scene>
         <!--Agility1W-->
         <scene sceneID="ASd-cB-jo1">
@@ -2461,15 +2445,14 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SfQ-U2-PiE"/>
-        <segue reference="lnN-Jb-RTW"/>
+        <segue reference="613-qQ-gi9"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="9lg-Uj-dpz"/>
+        <segue reference="I3a-L4-A1o"/>
         <segue reference="dYT-Kr-ugJ"/>
-        <segue reference="2XF-Nh-scB"/>
+        <segue reference="wF9-nb-ERp"/>
         <segue reference="oLv-Vm-CJT"/>
         <segue reference="VJT-lN-J5P"/>
-        <segue reference="VFB-tq-ycZ"/>
-        <segue reference="7hi-wX-3ge"/>
+        <segue reference="N6d-kG-iEx"/>
+        <segue reference="Xc0-dn-s9p"/>
     </inferredMetricsTieBreakers>
 </document>
