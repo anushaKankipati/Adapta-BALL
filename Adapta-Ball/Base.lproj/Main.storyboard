@@ -2474,9 +2474,12 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
         <image name="spotifyButton.png" width="1200" height="494"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Sur-0b-eA6"/>
         <segue reference="SfQ-U2-PiE"/>
+        <segue reference="Yrz-8i-Ik1"/>
+        <segue reference="xjI-QK-oKk"/>
+        <segue reference="Sur-0b-eA6"/>
         <segue reference="7gE-9z-dfC"/>
+        <segue reference="lTs-R3-4u4"/>
         <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
         <segue reference="9lg-Uj-dpz"/>
