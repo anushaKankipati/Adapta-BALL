@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -112,6 +113,18 @@
                                 <connections>
                                     <action selector="YesBall:" destination="WdE-vG-E5X" eventType="touchUpInside" id="JKB-YH-Plz"/>
                                     <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPT-tm-nYL">
+                                <rect key="frame" x="106" y="500" width="146" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OPT-tm-nYL" secondAttribute="height" multiplier="73:28" id="I3k-fb-GL7"/>
+                                    <constraint firstAttribute="height" constant="56" id="KNt-df-fX2"/>
+                                    <constraint firstAttribute="width" constant="146" id="w83-qZ-QFz"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="spotifybutton:" destination="WdE-vG-E5X" eventType="touchUpInside" id="Dzo-EE-gjz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2431,10 +2444,9 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="SfQ-U2-PiE"/>
         <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="9lg-Uj-dpz"/>
+        <segue reference="I3a-L4-A1o"/>
         <segue reference="n8d-Ok-dH6"/>
         <segue reference="2XF-Nh-scB"/>
         <segue reference="SQ3-co-Smv"/>
