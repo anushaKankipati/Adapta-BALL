@@ -77,4 +77,9 @@ class EnduranceWorkoutList: UIViewController {
     
     @IBAction func DescriptionsButton(_ sender: Any) {
     }
+    
+    @IBAction func spotifyButton(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/7f8ZK1MBoYfphCAoMFkTt1?si=zclxabklSnu5nrcxFB3HFQ")! as URL, options: [:], completionHandler: nil)
+    }
+    
 }

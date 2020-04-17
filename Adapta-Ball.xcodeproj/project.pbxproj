@@ -16,6 +16,7 @@
 		C51C8B412446ADAA004306BF /* CoreStrengthWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */; };
 		C51C8B432446B495004306BF /* CoreStrengthExDesc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */; };
 		C532F354244552EF00EFD15C /* HasNoBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C532F353244552EF00EFD15C /* HasNoBall.swift */; };
+		C5606855244973340098E485 /* spotifyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C5606854244973330098E485 /* spotifyButton.png */; };
 		C57C67CF24440881000ADD93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67CE24440881000ADD93 /* AppDelegate.swift */; };
 		C57C67D124440881000ADD93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57C67D024440881000ADD93 /* ViewController.swift */; };
 		C57C67D424440881000ADD93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C57C67D224440881000ADD93 /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthWorkout.swift; sourceTree = "<group>"; };
 		C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthExDesc.swift; sourceTree = "<group>"; };
 		C532F353244552EF00EFD15C /* HasNoBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasNoBall.swift; sourceTree = "<group>"; };
+		C5606854244973330098E485 /* spotifyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotifyButton.png; path = ../../../spotifyButton.png; sourceTree = "<group>"; };
 		C57C67CB24440880000ADD93 /* Adapta-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adapta-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67CE24440881000ADD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57C67D024440881000ADD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				C57C67DA24440881000ADD93 /* Info.plist */,
 				C5E88CB424443D1F00001AA1 /* gifBackground.swift */,
 				C5CF892924444EAE00BCCBE9 /* Equip.swift */,
+				C5606854244973330098E485 /* spotifyButton.png */,
 				C5CF892B244451A200BCCBE9 /* HasBall.swift */,
 				C532F353244552EF00EFD15C /* HasNoBall.swift */,
 				C59771AD244595520088677C /* BallHandling.swift */,
@@ -285,6 +288,7 @@
 			files = (
 				C57C67D924440881000ADD93 /* LaunchScreen.storyboard in Resources */,
 				C57C67D624440881000ADD93 /* Assets.xcassets in Resources */,
+				C5606855244973340098E485 /* spotifyButton.png in Resources */,
 				C5E88CB724443DE700001AA1 /* giphy.gif in Resources */,
 				C57C67D424440881000ADD93 /* Main.storyboard in Resources */,
 				C5FB8BFD24466A0100B01506 /* sound.mp3 in Resources */,

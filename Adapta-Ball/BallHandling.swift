@@ -79,4 +79,9 @@ class BallHandling: UIViewController {
         return String(format: "%02i:%02i:%02i", hours, minutes, seconds)
     }
     
+    @IBAction func spotifyButton(_ sender: Any) {
+         UIApplication.shared.open(URL(string: "https://open.spotify.com/playlist/7f8ZK1MBoYfphCAoMFkTt1?si=zclxabklSnu5nrcxFB3HFQ")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
 }

@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -66,7 +65,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="cba-R9-Pm6">
-                                <rect key="frame" x="73" y="315" width="229" height="73"/>
+                                <rect key="frame" x="73" y="363" width="229" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
@@ -95,15 +94,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="WXJ-FV-HkI"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="... also check out our Spotify playlist!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d7T-aF-iim">
-                                <rect key="frame" x="22" y="455" width="331" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="W9b-8i-Vqh">
-                                <rect key="frame" x="73" y="214" width="229" height="73"/>
+                                <rect key="frame" x="73" y="258" width="229" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.26320535430000003" green="0.26782656040000002" blue="0.2893599302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="25"/>
@@ -115,24 +107,11 @@
                                     <segue destination="TtV-cT-lY0" kind="show" id="I3a-L4-A1o"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPT-tm-nYL">
-                                <rect key="frame" x="106" y="500" width="146" height="56"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="OPT-tm-nYL" secondAttribute="height" multiplier="73:28" id="I3k-fb-GL7"/>
-                                    <constraint firstAttribute="height" constant="56" id="KNt-df-fX2"/>
-                                    <constraint firstAttribute="width" constant="146" id="w83-qZ-QFz"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="spotifybutton:" destination="WdE-vG-E5X" eventType="touchUpInside" id="Dzo-EE-gjz"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.69781935848586263" green="0.71007126375788088" blue="0.76716129651675125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="4vJ-xZ-o9g"/>
                     </view>
                     <connections>
-                        <outlet property="SpotifyPlaylistLabel" destination="d7T-aF-iim" id="nZ6-rl-TXx"/>
                         <outlet property="name" destination="wGi-PN-k1t" id="LlH-3m-X88"/>
                     </connections>
                 </viewController>
@@ -267,14 +246,14 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmC-3I-TDx">
-                                <rect key="frame" x="99" y="392" width="183" height="38"/>
+                                <rect key="frame" x="96" y="364" width="183" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="Cs7-EI-LsN">
-                                <rect key="frame" x="14" y="481" width="347" height="30"/>
+                                <rect key="frame" x="14" y="426" width="347" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="5Hp-tU-NCA" eventType="valueChanged" id="HD4-c8-gc6"/>
@@ -300,20 +279,16 @@
                                     <segue destination="q7X-pv-GsX" kind="show" id="0bF-km-Bca"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNb-rz-7Lf">
-                                <rect key="frame" x="29" y="554" width="90" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNe-Cu-oK8">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" image="spotifyButton.png"/>
                                 <connections>
-                                    <action selector="stop:" destination="5Hp-tU-NCA" eventType="touchUpInside" id="ia8-JE-Ong"/>
+                                    <action selector="spotifyButton:" destination="5Hp-tU-NCA" eventType="touchUpInside" id="vUc-wa-zkT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LnU-AT-JXX">
-                                <rect key="frame" x="253" y="554" width="90" height="60"/>
+                                <rect key="frame" x="216" y="488" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -322,6 +297,18 @@
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="5Hp-tU-NCA" eventType="touchUpInside" id="V8w-0w-Ao0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNb-rz-7Lf">
+                                <rect key="frame" x="71" y="488" width="90" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="5Hp-tU-NCA" eventType="touchUpInside" id="ia8-JE-Ong"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -349,21 +336,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Agility Workout:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qo3-8V-TQN">
-                                <rect key="frame" x="104" y="90" width="167" height="28"/>
+                                <rect key="frame" x="104" y="95" width="167" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(3x)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D84-5j-gZz">
-                                <rect key="frame" x="172" y="126" width="31" height="21"/>
+                                <rect key="frame" x="172" y="131" width="31" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UBu-xz-ecK">
-                                <rect key="frame" x="16" y="155" width="343" height="190"/>
+                                <rect key="frame" x="16" y="160" width="343" height="190"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">1. High knees                              &lt;30 sec&gt;                                   
@@ -388,14 +375,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fG2-ro-aBV">
-                                <rect key="frame" x="98" y="416" width="183" height="38"/>
+                                <rect key="frame" x="96" y="383" width="183" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="eWZ-xq-I5f">
-                                <rect key="frame" x="14" y="499" width="347" height="30"/>
+                                <rect key="frame" x="14" y="439" width="347" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="6kc-6I-gkP" eventType="valueChanged" id="Yp2-Rp-69m"/>
@@ -411,20 +398,8 @@
                                     <segue destination="MkA-bN-qer" kind="show" id="xjI-QK-oKk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6Q-Fj-9tf">
-                                <rect key="frame" x="37" y="563" width="90" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="stop:" destination="6kc-6I-gkP" eventType="touchUpInside" id="TTK-vK-bP3"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJq-jz-Kxi">
-                                <rect key="frame" x="253" y="563" width="90" height="60"/>
+                                <rect key="frame" x="216" y="494" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -433,6 +408,26 @@
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="6kc-6I-gkP" eventType="touchUpInside" id="q3h-SO-xlh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfn-NL-qGd">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spotifyButton.png"/>
+                                <connections>
+                                    <action selector="spotifyButton:" destination="6kc-6I-gkP" eventType="touchUpInside" id="GBk-oO-ylu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6Q-Fj-9tf">
+                                <rect key="frame" x="69" y="494" width="90" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="6kc-6I-gkP" eventType="touchUpInside" id="TTK-vK-bP3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -460,21 +455,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Core Strength Workout:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zvs-mJ-hQX">
-                                <rect key="frame" x="64" y="96" width="247" height="28"/>
+                                <rect key="frame" x="64" y="76" width="247" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(3x)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIM-7Y-6wE">
-                                <rect key="frame" x="172" y="132" width="31" height="21"/>
+                                <rect key="frame" x="172" y="112" width="31" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZpA-Te-j04">
-                                <rect key="frame" x="16" y="161" width="343" height="245.5"/>
+                                <rect key="frame" x="16" y="141" width="343" height="245.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">1. Bridge Plank                              &lt;1 min&gt;                                   
@@ -499,15 +494,8 @@
                                     <segue destination="q7X-pv-GsX" kind="show" id="gSg-YB-GqA"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajv-fX-Tmx">
-                                <rect key="frame" x="98" y="414" width="183" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="0.0" maxValue="120" translatesAutoresizingMaskIntoConstraints="NO" id="vps-nx-ERa">
-                                <rect key="frame" x="14" y="500" width="347" height="30"/>
+                                <rect key="frame" x="14" y="436" width="347" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="yjO-kW-aV3" eventType="valueChanged" id="tXP-CX-G0j"/>
@@ -524,7 +512,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vkr-cX-kNq">
-                                <rect key="frame" x="37" y="561" width="90" height="60"/>
+                                <rect key="frame" x="71" y="494" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -536,7 +524,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohK-H9-ACb">
-                                <rect key="frame" x="253" y="561" width="90" height="60"/>
+                                <rect key="frame" x="216" y="494" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -545,6 +533,21 @@
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="yjO-kW-aV3" eventType="touchUpInside" id="Ow7-te-wI1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:01:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ajv-fX-Tmx">
+                                <rect key="frame" x="96" y="380" width="183" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYj-sL-RWC">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spotifyButton.png"/>
+                                <connections>
+                                    <action selector="spotifyButton:" destination="yjO-kW-aV3" eventType="touchUpInside" id="nlX-rv-yeZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1363,21 +1366,14 @@ Plant hands directly under shoulders like you’re about to do a push-up. Ground
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8C-kQ-HKj">
-                                <rect key="frame" x="98" y="407" width="183" height="38"/>
+                                <rect key="frame" x="96" y="371" width="183" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="bQf-e0-8kB">
-                                <rect key="frame" x="14" y="484" width="347" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="sliderAction:" destination="LwK-1G-4aa" eventType="valueChanged" id="nPk-i1-tOP"/>
-                                </connections>
-                            </slider>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLU-Vy-V1y">
-                                <rect key="frame" x="259" y="558" width="90" height="60"/>
+                                <rect key="frame" x="216" y="489" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -1399,7 +1395,7 @@ Plant hands directly under shoulders like you’re about to do a push-up. Ground
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L6i-TK-vwn">
-                                <rect key="frame" x="29" y="558" width="90" height="60"/>
+                                <rect key="frame" x="73" y="489" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -1410,6 +1406,21 @@ Plant hands directly under shoulders like you’re about to do a push-up. Ground
                                     <action selector="stop:" destination="LwK-1G-4aa" eventType="touchUpInside" id="kir-5S-BS5"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X2y-gA-K3I">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spotifyButton.png"/>
+                                <connections>
+                                    <action selector="spotifyButton:" destination="LwK-1G-4aa" eventType="touchUpInside" id="eP4-NT-1tb"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="bQf-e0-8kB">
+                                <rect key="frame" x="14" y="427" width="347" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="sliderAction:" destination="LwK-1G-4aa" eventType="valueChanged" id="nPk-i1-tOP"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sfk-aw-Gbk"/>
@@ -1745,15 +1756,8 @@ To do a burpee, start from a standing position, then squat down and place your h
                                 <fontDescription key="fontDescription" name="OriyaSangamMN" family="Oriya Sangam MN" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqh-8W-4mx">
-                                <rect key="frame" x="99" y="414" width="183" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="MyO-QU-zvt">
-                                <rect key="frame" x="14" y="495" width="347" height="30"/>
+                                <rect key="frame" x="14" y="433" width="347" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="1hz-8K-WVi" eventType="valueChanged" id="mLc-cr-e9T"/>
@@ -1779,20 +1783,8 @@ To do a burpee, start from a standing position, then squat down and place your h
                                     <segue destination="a4d-Ad-1RO" kind="show" id="Yrz-8i-Ik1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC4-Rp-gKw">
-                                <rect key="frame" x="29" y="564" width="90" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="stop:" destination="1hz-8K-WVi" eventType="touchUpInside" id="CJZ-sY-RQ8"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRu-iN-TI7">
-                                <rect key="frame" x="253" y="564" width="90" height="60"/>
+                                <rect key="frame" x="216" y="491" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -1801,6 +1793,33 @@ To do a burpee, start from a standing position, then squat down and place your h
                                 </state>
                                 <connections>
                                     <action selector="start:" destination="1hz-8K-WVi" eventType="touchUpInside" id="X59-1R-L9y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ct4-4A-xMi">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spotifyButton.png"/>
+                                <connections>
+                                    <action selector="spotifyButton:" destination="1hz-8K-WVi" eventType="touchUpInside" id="6iA-5B-cpr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wqh-8W-4mx">
+                                <rect key="frame" x="96" y="380" width="183" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nC4-Rp-gKw">
+                                <rect key="frame" x="71" y="491" width="90" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.073840962539999999" green="0.22110718900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="1hz-8K-WVi" eventType="touchUpInside" id="CJZ-sY-RQ8"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1817,7 +1836,7 @@ To do a burpee, start from a standing position, then squat down and place your h
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ESZ-L9-uAw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2612" y="-874"/>
+            <point key="canvasLocation" x="2612" y="-874.81259370314854"/>
         </scene>
         <!--Agility1 Exercise Desc-->
         <scene sceneID="vaF-t2-epi">
@@ -2086,7 +2105,7 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stationary Ball Handling Workout:" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xGU-id-ZQQ">
-                                <rect key="frame" x="37" y="79" width="301" height="67"/>
+                                <rect key="frame" x="0.0" y="79" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -2103,7 +2122,7 @@ Cg
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mV6-Vi-iSl">
-                                <rect key="frame" x="11" y="183" width="352" height="222"/>
+                                <rect key="frame" x="11" y="153" width="352" height="222"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -2126,14 +2145,14 @@ Cg
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="45" minValue="0.0" maxValue="45" translatesAutoresizingMaskIntoConstraints="NO" id="q0x-QV-29o">
-                                <rect key="frame" x="9" y="494" width="356" height="30"/>
+                                <rect key="frame" x="9" y="445" width="356" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="sliderAction:" destination="tY8-Qp-mJ6" eventType="valueChanged" id="0Ok-EJ-bN9"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(2x)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ute-5y-iFz">
-                                <rect key="frame" x="172" y="154" width="31" height="21"/>
+                                <rect key="frame" x="172" y="124" width="31" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2149,20 +2168,8 @@ Cg
                                     <segue destination="Kjv-ZE-9Ip" kind="show" id="SfQ-U2-PiE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fze-oI-zk4">
-                                <rect key="frame" x="29" y="558" width="90" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" red="0.073840962536083077" green="0.22110718898555171" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="stop:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="f2w-bY-ZYf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sP9-vp-MOq">
-                                <rect key="frame" x="254" y="558" width="90" height="60"/>
+                                <rect key="frame" x="216" y="496" width="90" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
@@ -2174,12 +2181,32 @@ Cg
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="00:00:45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjd-l7-rXV">
-                                <rect key="frame" x="16" y="429" width="343" height="44"/>
+                                <rect key="frame" x="16" y="393" width="343" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="38"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5F-hI-DeN">
+                                <rect key="frame" x="191" y="577" width="168" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="spotifyButton.png"/>
+                                <connections>
+                                    <action selector="spotifyButton:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="ER4-PX-Jed"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fze-oI-zk4">
+                                <rect key="frame" x="69" y="496" width="90" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.86839953000000003" green="0.89173468099999997" blue="0.96174013380000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="21"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.073840962536083077" green="0.22110718898555171" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="tY8-Qp-mJ6" eventType="touchUpInside" id="f2w-bY-ZYf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Okd-gK-SM7"/>
@@ -2443,15 +2470,21 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
             <point key="canvasLocation" x="3357.5999999999999" y="-1603.4482758620691"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="spotifyButton.png" width="1200" height="494"/>
+    </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Sur-0b-eA6"/>
+        <segue reference="SfQ-U2-PiE"/>
+        <segue reference="7gE-9z-dfC"/>
         <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="I3a-L4-A1o"/>
+        <segue reference="9lg-Uj-dpz"/>
         <segue reference="n8d-Ok-dH6"/>
         <segue reference="2XF-Nh-scB"/>
         <segue reference="SQ3-co-Smv"/>
         <segue reference="lxf-Os-RDP"/>
-        <segue reference="N6d-kG-iEx"/>
+        <segue reference="VFB-tq-ycZ"/>
         <segue reference="Xc0-dn-s9p"/>
     </inferredMetricsTieBreakers>
 </document>
