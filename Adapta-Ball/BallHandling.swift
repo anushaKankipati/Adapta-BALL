@@ -52,7 +52,7 @@ class BallHandling: UIViewController {
         }
     }
     @objc func counter(){
-        seconds -= 1
+        seconds -= 1 //timer countdown
         labelTime.text = timeString(time: TimeInterval(seconds))
         slider.value = Float(seconds)
         if(seconds == 0){
