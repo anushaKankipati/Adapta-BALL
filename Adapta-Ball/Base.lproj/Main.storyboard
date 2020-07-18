@@ -564,7 +564,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lBa-3V-iwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2612" y="2133.2833583208399"/>
+            <point key="canvasLocation" x="2612" y="2104"/>
         </scene>
         <!--Core Strength Ex Desc-->
         <scene sceneID="8tA-d9-sXF">
@@ -2474,20 +2474,15 @@ It's basically two taps to the ball in front.Then it's two taps in back, and the
         <image name="spotifyButton.png" width="1200" height="494"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SfQ-U2-PiE"/>
         <segue reference="Yrz-8i-Ik1"/>
-        <segue reference="xjI-QK-oKk"/>
-        <segue reference="Sur-0b-eA6"/>
-        <segue reference="7gE-9z-dfC"/>
-        <segue reference="lTs-R3-4u4"/>
         <segue reference="lnN-Jb-RTW"/>
         <segue reference="y7C-5a-3N5"/>
-        <segue reference="9lg-Uj-dpz"/>
+        <segue reference="EpM-vf-0Gi"/>
         <segue reference="n8d-Ok-dH6"/>
         <segue reference="2XF-Nh-scB"/>
         <segue reference="SQ3-co-Smv"/>
         <segue reference="lxf-Os-RDP"/>
-        <segue reference="VFB-tq-ycZ"/>
+        <segue reference="gSg-YB-GqA"/>
         <segue reference="Xc0-dn-s9p"/>
     </inferredMetricsTieBreakers>
 </document>

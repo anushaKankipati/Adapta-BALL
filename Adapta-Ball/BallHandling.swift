@@ -48,7 +48,7 @@ class BallHandling: UIViewController {
 
     @IBAction func start(_ sender: Any) {
         if(isTimerRunning == false){
-            runTimer()
+            runTimer()//timer runs
         }
     }
     @objc func counter(){

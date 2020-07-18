@@ -62,7 +62,7 @@
 		C51C8B402446ADAA004306BF /* CoreStrengthWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthWorkout.swift; sourceTree = "<group>"; };
 		C51C8B422446B495004306BF /* CoreStrengthExDesc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreStrengthExDesc.swift; sourceTree = "<group>"; };
 		C532F353244552EF00EFD15C /* HasNoBall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasNoBall.swift; sourceTree = "<group>"; };
-		C5606854244973330098E485 /* spotifyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotifyButton.png; path = ../../../spotifyButton.png; sourceTree = "<group>"; };
+		C5606854244973330098E485 /* spotifyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spotifyButton.png; path = ../../spotifyButton.png; sourceTree = SOURCE_ROOT; };
 		C57C67CB24440880000ADD93 /* Adapta-Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adapta-Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C57C67CE24440881000ADD93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C57C67D024440881000ADD93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
